@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="abb09e4a-0d8b-40b7-bec7-39b8eb4001b2" name="Changes" comment="Initialized repository">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Random/ConvertIntegerToBinary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Random/ElementGreaterThanAverage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Random/FindDuplicateInteger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Random/GreatestCommonDivisor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Random/LargestElementInArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Random/ReverseArrayOfIntegerValues.java" afterDir="false" />
+    <list default="true" id="abb09e4a-0d8b-40b7-bec7-39b8eb4001b2" name="Changes" comment="Added random solutions">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -75,7 +68,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1650380909992</updated>
-      <workItem from="1650380914092" duration="4499000" />
+      <workItem from="1650380914092" duration="5973000" />
     </task>
     <task id="LOCAL-00001" summary="Initialized repository">
       <created>1650381585804</created>
@@ -84,7 +77,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650381585804</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added random solutions">
+      <created>1650385825533</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1650385825533</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -103,6 +103,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initialized repository" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initialized repository" />
+    <MESSAGE value="Added random solutions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added random solutions" />
   </component>
 </project>
