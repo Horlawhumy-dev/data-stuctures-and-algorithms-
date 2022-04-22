@@ -21,9 +21,9 @@ public class FindDuplicateInteger {
 //    Time Complexity => O(n*n)
 //     space complexity => O(1)
     public static boolean containDuplicates(int[] array) {
-        for(int i = 0; i < array.length; ++i) {
-            for(int j = i + 1; j < array.length - 1; ++j) {
-                if (array[i] == array[j]) {
+        for(int i = 0; i < nums.length-1; ++i) {
+            for(int j = i + 1; j < nums.length; ++j) {
+                if (nums[i] == nums[j]) {
                     return true;
                 }
             }
