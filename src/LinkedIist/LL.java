@@ -51,10 +51,17 @@ public class LL<T extends Comparable<T>>{
 
     }
 
-    public void deleteNodeAtAnyIndex(int index) {
+    public Node<T> deleteNodeAtAnyIndex(int index) {
         Node<T> prevNode = getPrevNode(index);
+        Node<T> node = prevNode.next;
         prevNode.setNext(prevNode.next.next);
         size--;
+        return node;
+    }
+
+    public T findNodeElement(int index){
+        Node<T> prevNode = getPrevNode(index);
+        return prevNode.next.getData();
     }
 
     // this is getting the previous node to the index

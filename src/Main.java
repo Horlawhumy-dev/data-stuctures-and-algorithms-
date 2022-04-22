@@ -16,7 +16,7 @@ public class Main {
         System.out.println(ll.insertNodeAtIndex("here", 2));
         ll.deleteNode("LAST");
         System.out.println(ll.getSize());
-        ll.deleteNodeAtAnyIndex(2);
+        System.out.println(ll.findNodeElement(2));;
         ll.displayLL();
     }
 }
