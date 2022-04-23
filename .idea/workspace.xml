@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="abb09e4a-0d8b-40b7-bec7-39b8eb4001b2" name="Changes" comment="Added array package and first solution">
-      <change afterPath="$PROJECT_DIR$/src/Array/SquaresOfSortedArrays.java" afterDir="false" />
+    <list default="true" id="abb09e4a-0d8b-40b7-bec7-39b8eb4001b2" name="Changes" comment="Added solution to squares of sorted array">
+      <change afterPath="$PROJECT_DIR$/src/Array/RemoveDuplicatesInSortedArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Arrays/MergeTwoSortedArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/MergeTwoSortedArrays.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Arrays/SquaresOfSortedArrays.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -147,7 +145,21 @@
       <option name="project" value="LOCAL" />
       <updated>1650727239304</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Added solution to squares of sorted array">
+      <created>1650728524222</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1650728524222</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Added solution to squares of sorted array">
+      <created>1650728538549</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1650728538549</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -172,6 +184,7 @@
     <MESSAGE value="Added LinkedList implementations" />
     <MESSAGE value="Modified LinkedList Codes" />
     <MESSAGE value="Added array package and first solution" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added array package and first solution" />
+    <MESSAGE value="Added solution to squares of sorted array" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added solution to squares of sorted array" />
   </component>
 </project>
