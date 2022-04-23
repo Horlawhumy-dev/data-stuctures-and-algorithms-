@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="abb09e4a-0d8b-40b7-bec7-39b8eb4001b2" name="Changes" comment="Modified LinkedList Codes">
-      <change afterPath="$PROJECT_DIR$/src/Arrays/MergeTwoSortedArrays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Arrays/SquaresOfSortedArrays.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="abb09e4a-0d8b-40b7-bec7-39b8eb4001b2" name="Changes" comment="Added array package and first solution" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -81,7 +76,7 @@
       <workItem from="1650491009683" duration="3390000" />
       <workItem from="1650614976567" duration="14151000" />
       <workItem from="1650638246254" duration="2765000" />
-      <workItem from="1650723391621" duration="3517000" />
+      <workItem from="1650723391621" duration="3590000" />
     </task>
     <task id="LOCAL-00001" summary="Initialized repository">
       <created>1650381585804</created>
@@ -132,7 +127,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650640238973</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Added array package and first solution">
+      <created>1650726982847</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1650726982847</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -156,6 +158,7 @@
     <MESSAGE value="Added some solution and fixed files" />
     <MESSAGE value="Added LinkedList implementations" />
     <MESSAGE value="Modified LinkedList Codes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Modified LinkedList Codes" />
+    <MESSAGE value="Added array package and first solution" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added array package and first solution" />
   </component>
 </project>
