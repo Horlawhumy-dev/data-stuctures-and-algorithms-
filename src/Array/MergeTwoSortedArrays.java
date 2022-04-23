@@ -1,6 +1,4 @@
-package Arrays;
-
-import java.util.ArrayList;
+package Array;
 
 public class MergeTwoSortedArrays {
 
