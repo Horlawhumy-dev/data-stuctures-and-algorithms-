@@ -1,22 +1,16 @@
+import Arrays.MergeTwoSortedArrays;
 import LinkedIist.LL;
+
+import java.util.Arrays;
 
 
 public class Main {
     public static void main(String[] args)  {
-
-        LL<String> ll = new LL<String>();
-        ll.insertFirst("midnode1");
-        ll.insertFirst("midnode2");
-
-        ll.insertFirst("midnode3");
-        ll.insertFirst("headnode");
-
-        ll.insertLast("tailnode");
-
-        System.out.println(ll.insertNodeAtIndex("here", 2));
-        ll.deleteNode("LAST");
-        System.out.println(ll.getSize());
-        System.out.println(ll.findNodeElement(2));;
-        ll.displayLL();
+        int[] nums1 = {1,2,3,0,0,0};
+        int[] nums2 = {2, 5, 6,};
+        int n =nums2.length;
+        int m = nums1.length-n;
+        MergeTwoSortedArrays.mergeTwoSortedArrays(nums1,m, nums2,n);
+        System.out.println(Arrays.toString(nums1));
     }
 }

@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="abb09e4a-0d8b-40b7-bec7-39b8eb4001b2" name="Changes" comment="Added LinkedList implementations">
+    <list default="true" id="abb09e4a-0d8b-40b7-bec7-39b8eb4001b2" name="Changes" comment="Modified LinkedList Codes">
+      <change afterPath="$PROJECT_DIR$/src/Arrays/MergeTwoSortedArrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arrays/SquaresOfSortedArrays.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LinkedIist/LL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedIist/LL.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -17,6 +18,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Rebase.Settings">
+    <option name="NEW_BASE" value="main" />
   </component>
   <component name="Git.Settings">
     <option name="PUSH_AUTO_UPDATE" value="true" />
@@ -76,7 +80,8 @@
       <workItem from="1650453974693" duration="506000" />
       <workItem from="1650491009683" duration="3390000" />
       <workItem from="1650614976567" duration="14151000" />
-      <workItem from="1650638246254" duration="1918000" />
+      <workItem from="1650638246254" duration="2765000" />
+      <workItem from="1650723391621" duration="3517000" />
     </task>
     <task id="LOCAL-00001" summary="Initialized repository">
       <created>1650381585804</created>
@@ -120,7 +125,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650631535810</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Modified LinkedList Codes">
+      <created>1650640238973</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1650640238973</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -143,6 +155,7 @@
     <MESSAGE value="Fixed Main" />
     <MESSAGE value="Added some solution and fixed files" />
     <MESSAGE value="Added LinkedList implementations" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added LinkedList implementations" />
+    <MESSAGE value="Modified LinkedList Codes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modified LinkedList Codes" />
   </component>
 </project>
