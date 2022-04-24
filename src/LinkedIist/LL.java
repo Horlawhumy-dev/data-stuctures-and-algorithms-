@@ -15,9 +15,25 @@ public class LL<T extends Comparable<T>>{
         size++;
     }
 
+    public void findDuplicatesInLinkedList() {
+        Node<T> node = head;
+        while(node != null && node.next != null) {
+            if (node.getData() == node.next.getData()) {
+                node.next = node.next.next;
+            }
+            node = node.next;
+
+        }
+    }
+
 
     public void insertLast(T value){
         Node<T> node = new Node<>(value);
+        head = node;
+        if(tail ==  null){
+            tail = head;
+            return;
+        }
         tail.setNext(node);
         tail = node;
         size++;

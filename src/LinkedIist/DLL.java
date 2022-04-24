@@ -124,8 +124,6 @@ public class DLL<T extends Comparable<T>>{
 //            setPrev(null);
         }
 
-//    public <T extends Comparable<T>> Node(LL<T> value) {
-//    }
 
         protected void setNext(Node<T> next) {
             this.next = next;
