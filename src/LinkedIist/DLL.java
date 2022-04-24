@@ -21,7 +21,16 @@ public class DLL<T extends Comparable<T>>{
 
     public void insertLast(T value){
         Node<T> node = new Node<>(value);
-        tail.setNext(node);
+        node.setNext(null);
+
+        if (head == null) {
+            node.setPrev(null);
+            head = node;
+            tail = head;
+            return;
+        }
+        tail.next = node;
+        node.setPrev(tail);
         tail = node;
         size++;
     }

@@ -29,8 +29,9 @@ public class LL<T extends Comparable<T>>{
 
     public void insertLast(T value){
         Node<T> node = new Node<>(value);
-        head = node;
-        if(tail ==  null){
+        node.setNext(null);
+        if(head ==  null){
+            head = node;
             tail = head;
             return;
         }
