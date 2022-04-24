@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="abb09e4a-0d8b-40b7-bec7-39b8eb4001b2" name="Changes" comment="Added solution to squares of sorted array">
-      <change afterPath="$PROJECT_DIR$/src/Array/RemoveDuplicatesInSortedArray.java" afterDir="false" />
+    <list default="true" id="abb09e4a-0d8b-40b7-bec7-39b8eb4001b2" name="Changes" comment="Added solution to remove duplicates of sorted array">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,6 +79,7 @@
       <workItem from="1650614976567" duration="14151000" />
       <workItem from="1650638246254" duration="2765000" />
       <workItem from="1650723391621" duration="3590000" />
+      <workItem from="1650809896382" duration="309000" />
     </task>
     <task id="LOCAL-00001" summary="Initialized repository">
       <created>1650381585804</created>
@@ -159,7 +158,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650728538549</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Added solution to remove duplicates of sorted array">
+      <created>1650733660327</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1650733660327</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -185,6 +191,7 @@
     <MESSAGE value="Modified LinkedList Codes" />
     <MESSAGE value="Added array package and first solution" />
     <MESSAGE value="Added solution to squares of sorted array" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added solution to squares of sorted array" />
+    <MESSAGE value="Added solution to remove duplicates of sorted array" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added solution to remove duplicates of sorted array" />
   </component>
 </project>
