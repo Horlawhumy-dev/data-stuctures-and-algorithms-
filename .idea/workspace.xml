@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="abb09e4a-0d8b-40b7-bec7-39b8eb4001b2" name="Changes" comment="Added solution to remove duplicates of sorted array">
-      <change afterPath="$PROJECT_DIR$/src/LinkedIist/CLL.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="abb09e4a-0d8b-40b7-bec7-39b8eb4001b2" name="Changes" comment="Added solution to circular linked list" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -81,7 +77,7 @@
       <workItem from="1650614976567" duration="14151000" />
       <workItem from="1650638246254" duration="2765000" />
       <workItem from="1650723391621" duration="3590000" />
-      <workItem from="1650809896382" duration="4131000" />
+      <workItem from="1650809896382" duration="4789000" />
     </task>
     <task id="LOCAL-00001" summary="Initialized repository">
       <created>1650381585804</created>
@@ -181,7 +177,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650810240543</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Added solution to circular linked list">
+      <created>1650814127820</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1650814127820</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -208,6 +211,7 @@
     <MESSAGE value="Added array package and first solution" />
     <MESSAGE value="Added solution to squares of sorted array" />
     <MESSAGE value="Added solution to remove duplicates of sorted array" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added solution to remove duplicates of sorted array" />
+    <MESSAGE value="Added solution to circular linked list" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added solution to circular linked list" />
   </component>
 </project>
