@@ -81,6 +81,46 @@ public class LL<T extends Comparable<T>>{
         return prevNode.next.getData();
     }
 
+    public Node<T> findMidElement() {
+        Node<T> fast = head;
+        Node<T> slow = head;
+
+        while(fast != null && fast.next != null) {
+            fast = fast.next.next;
+            slow = slow.next;
+        }
+        return slow;
+    }
+
+    public LL<Integer> mergeSortedLL(LL<Integer> l1, LL<Integer> l2) {
+        LL<Integer> l3 = new LL<>();
+
+        Node<Integer> h1 = l1.head;
+        Node<Integer> h2 = l2.head;
+
+        while(h1 != null && h2 != null) {
+            if (h1.getData() < h2.getData()) {
+                l3.insertLast(h1.getData());
+                h1 = h1.next;
+            }else {
+                l3.insertLast(h2.getData());
+                h2 = h2.next;
+            }
+        }
+        // if this reaches null quickly, it will not run.
+        // Only one of these loops will run except both are of equal length.
+        while (h1 != null){
+            l3.insertLast(h1.getData());
+            h1 = h1.next;
+        }
+        // if this reaches null quickly, it will not run.
+        while (h2 != null) {
+            l3.insertLast(h2.getData());
+            h2 = h2.next;
+        }
+        return l3;
+    }
+
     // this is getting the previous node to the index
     public Node<T> getPrevNode(int index) {
         Node<T> current = head;
@@ -107,7 +147,7 @@ public class LL<T extends Comparable<T>>{
         return size;
     }
 
-    public void displayLL() {
+    public void display() {
         Node<T> current = head;
         while(current != null) {
             System.out.print(current + " -> ");
