@@ -1,16 +1,8 @@
-import Array.RemoveDuplicatesInSortedArray;
-import Array.SquaresOfSortedArrays;
-import LinkedIist.CLL;
-import LinkedIist.DLL;
-import LinkedIist.LL;
-import LinkedIist.Node;
+import BinarySearch.FindTargetInASortedArray;
 
-import java.util.Arrays;
-import java.util.LinkedList;
-
-
-public class Main {
-    public static void main(String[] args)  {
-
+class Main {
+    public static void main(String[] args) {
+        int[] nums = {-1,0,3,5,9,12};
+        System.out.println(FindTargetInASortedArray.search(nums, 9));
     }
 }
