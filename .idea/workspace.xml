@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="abb09e4a-0d8b-40b7-bec7-39b8eb4001b2" name="Changes" comment="Added solution to merge sorted linked lists.">
-      <change afterPath="$PROJECT_DIR$/src/Array/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Array/RotatedMatrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LinkedIist/Main.java" afterDir="false" />
+    <list default="true" id="abb09e4a-0d8b-40b7-bec7-39b8eb4001b2" name="Changes" comment="Added some solutions to Array questions">
+      <change afterPath="$PROJECT_DIR$/src/Array/TwoSums.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Random/HappyNumber.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -88,7 +87,8 @@
       <workItem from="1650809896382" duration="18757000" />
       <workItem from="1650864763830" duration="6542000" />
       <workItem from="1650886987445" duration="2744000" />
-      <workItem from="1650930952977" duration="4011000" />
+      <workItem from="1650930952977" duration="5793000" />
+      <workItem from="1651044602909" duration="9663000" />
     </task>
     <task id="LOCAL-00001" summary="Initialized repository">
       <created>1650381585804</created>
@@ -237,7 +237,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650889757136</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Added some solutions to Array questions">
+      <created>1650939491846</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1650939491846</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -270,6 +277,7 @@
     <MESSAGE value="Modified singly and doubly linkedlists" />
     <MESSAGE value="Added Binary Search solution" />
     <MESSAGE value="Added solution to merge sorted linked lists." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added solution to merge sorted linked lists." />
+    <MESSAGE value="Added some solutions to Array questions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added some solutions to Array questions" />
   </component>
 </project>
