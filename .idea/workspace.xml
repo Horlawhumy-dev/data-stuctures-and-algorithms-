@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="abb09e4a-0d8b-40b7-bec7-39b8eb4001b2" name="Changes" comment="Added some solutions to Array questions">
-      <change afterPath="$PROJECT_DIR$/src/Array/TwoSums.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Random/HappyNumber.java" afterDir="false" />
+    <list default="true" id="abb09e4a-0d8b-40b7-bec7-39b8eb4001b2" name="Changes" comment="Added solution to happy number question">
+      <change afterPath="$PROJECT_DIR$/src/LinkedIist/CircularDoublyLL.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LinkedIist/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedIist/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,12 +49,25 @@
       <recent name="C:\Users\HP\Desktop\DSA\src\Random" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="Array" />
       <recent name="LinkedIist" />
+      <recent name="Array" />
       <recent name="Random" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.LinkedIist.Main">
+    <configuration name="LinkedIist.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LinkedIist.Main" />
+      <module name="DSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="LinkedIist.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="DSA" />
@@ -65,6 +77,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LinkedIist.Main" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -88,7 +101,8 @@
       <workItem from="1650864763830" duration="6542000" />
       <workItem from="1650886987445" duration="2744000" />
       <workItem from="1650930952977" duration="5793000" />
-      <workItem from="1651044602909" duration="9663000" />
+      <workItem from="1651044602909" duration="9766000" />
+      <workItem from="1651164361535" duration="3001000" />
     </task>
     <task id="LOCAL-00001" summary="Initialized repository">
       <created>1650381585804</created>
@@ -244,7 +258,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650939491846</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Added solution to happy number question">
+      <created>1651056614268</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1651056614268</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -278,6 +299,22 @@
     <MESSAGE value="Added Binary Search solution" />
     <MESSAGE value="Added solution to merge sorted linked lists." />
     <MESSAGE value="Added some solutions to Array questions" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added some solutions to Array questions" />
+    <MESSAGE value="Added solution to happy number question" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added solution to happy number question" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/LinkedIist/CircularDoublyLL.java</url>
+          <line>90</line>
+          <properties class="LinkedIist.CircularDoublyLL" method="deleteNodeAtAnyIndex">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
