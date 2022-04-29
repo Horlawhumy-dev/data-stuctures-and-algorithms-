@@ -1,4 +1,4 @@
-package BinarySearch;
+package Searching;
 
 public class FindTargetInASortedArray {
     public static int search(int[] nums, int target) {

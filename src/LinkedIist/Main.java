@@ -2,18 +2,18 @@ package LinkedIist;
 
 public class Main {
     public static void main(String[] args) {
-        CircularDoublyLL<Integer> list = new CircularDoublyLL<>();
-        list.insertNode(9);
-        list.insertNode(8);
-        list.insertNode(6);
-        list.insertNode(4);
-        list.insertNode(2);
-        list.insertNode(1);
-        list.printCurrentTail();
-        list.printCurrentHead();
-        list.displayLL();
-        System.out.println( list.insertNodeAtIndex(8, 5));
-        list.displayLL();
+        LL<Integer> list = new LL<>();
+        list.insertLast(9);
+        list.insertLast(8);
+        list.insertLast(1);
+        list.insertLast(9);
+        list.insertLast(4);
+        list.insertLast(1);
+        list.insertLast(9);
+//        list.printCurrentTail();
+//        list.printCurrentHead();
+        list.removeDuplicatesLL();
+        list.display();
 
 //        LL<Integer> list2 = new LL<>();
 //        list2.insertFirst(17);
