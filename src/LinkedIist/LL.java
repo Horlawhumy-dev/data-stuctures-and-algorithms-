@@ -1,5 +1,7 @@
 package LinkedIist;
 
+import java.util.HashSet;
+
 public class LL<T extends Comparable<T>>{
     private Node<T> head = null;
     private Node<T> tail = null;
@@ -24,6 +26,35 @@ public class LL<T extends Comparable<T>>{
             node = node.next;
 
         }
+    }
+
+    public void removeDuplicatesLL() {
+        HashSet<T> set = new HashSet<>();
+        Node<T> current = head;
+        int i =1;
+
+        while(current != null && i <= size) {
+            Node<T> temp = getPrevNode(i);
+            if (set.contains(current.getData())) {
+                temp.setNext(current.getNext());
+                size--;
+            }else {
+                set.add(current.getData());
+            }
+            current = current.getNext();
+            i++;
+        }
+//
+//        for (int i = 0; i < size; i++) {
+//            Node<T> temp = getPrevNode(i);
+//            if (set.contains(current.getData())) {
+//                temp.setNext(current.getNext());
+//                size--;
+//            }else {
+//                set.add(current.getData());
+//            }
+//            current = current.getNext();
+//        }
     }
 
 

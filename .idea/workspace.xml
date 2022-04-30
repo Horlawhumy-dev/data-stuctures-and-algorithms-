@@ -1,21 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="abb09e4a-0d8b-40b7-bec7-39b8eb4001b2" name="Changes" comment="Added solution to circular doubly linkedlist">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Sorting/BubbleSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Sorting/Insertion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Sorting/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Sorting/Selection.java" afterDir="false" />
+    <list default="true" id="abb09e4a-0d8b-40b7-bec7-39b8eb4001b2" name="Changes" comment="Deleted unversioned files">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recursion/Factorial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recursion/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recursion/PrintNthNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recursion/SumOfDigits.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BinarySearch/FindTargetInASortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Searching/FindTargetInASortedArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/LinkedIist/LL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedIist/LL.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LinkedIist/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedIist/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -33,6 +35,9 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
   </component>
   <component name="ProjectId" id="281P0zo3HX9BZ0kc40vBEP6s39B" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -60,7 +65,7 @@
       <recent name="Random" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LinkedIist.Main">
+  <component name="RunManager" selected="Application.Recursion.Main">
     <configuration name="LinkedIist.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LinkedIist.Main" />
       <module name="DSA" />
@@ -81,6 +86,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Recursion.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Recursion.Main" />
+      <module name="DSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Recursion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Sorting.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Sorting.Main" />
       <module name="DSA" />
@@ -96,8 +114,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LinkedIist.Main" />
+        <item itemvalue="Application.Recursion.Main" />
         <item itemvalue="Application.Sorting.Main" />
+        <item itemvalue="Application.LinkedIist.Main" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -123,7 +142,7 @@
       <workItem from="1650930952977" duration="5793000" />
       <workItem from="1651044602909" duration="9766000" />
       <workItem from="1651164361535" duration="3057000" />
-      <workItem from="1651260392830" duration="11284000" />
+      <workItem from="1651260392830" duration="12239000" />
     </task>
     <task id="LOCAL-00001" summary="Initialized repository">
       <created>1650381585804</created>
@@ -293,7 +312,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651167453632</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Added solution to sorting algorithms">
+      <created>1651276345639</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1651276345640</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -329,7 +355,8 @@
     <MESSAGE value="Added some solutions to Array questions" />
     <MESSAGE value="Added solution to happy number question" />
     <MESSAGE value="Added solution to circular doubly linkedlist" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added solution to circular doubly linkedlist" />
+    <MESSAGE value="Added solution to sorting algorithms" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added solution to sorting algorithms" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
