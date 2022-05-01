@@ -10,11 +10,7 @@ public class Main {
         list.insertLast(4);
         list.insertLast(1);
         list.insertLast(9);
-//        list.printCurrentTail();
-//        list.printCurrentHead();
-        list.removeDuplicatesLL();
-        list.display();
-
+        list.getKthToLast(9);
 //        LL<Integer> list2 = new LL<>();
 //        list2.insertFirst(17);
 //        list2.insertFirst(15);

@@ -17,16 +17,60 @@ public class LL<T extends Comparable<T>>{
         size++;
     }
 
-    public void findDuplicatesInLinkedList() {
+    public void insertLast(T value){
+        Node<T> node = new Node<>(value);
+        node.setNext(null);
+        if(head ==  null){
+            head = node;
+            tail = head;
+            return;
+        }
+        tail.setNext(node);
+        tail = node;
+        size++;
+    }
+
+
+    public void getKthToLast(int kth) {
+        Node<T> KthNode = getKthNode(kth);
+
+        if (kth > size || kth < 0) {
+            System.out.println("Invalid position found!");
+            return;
+        }
+        displayKthLL(KthNode);
+    }
+
+    public void displayKthLL(Node<T> initialNode) {
+        Node<T> KthNode = initialNode;
+        while (KthNode != null) {
+            System.out.print(KthNode.getData() + " -> ");
+            KthNode = KthNode.next;
+        }
+        System.out.println(" END");
+    }
+
+    public Node<T> getKthNode(int kth) {
         Node<T> node = head;
-        while(node != null && node.next != null) {
-            if (node.getData() == node.next.getData()) {
-                node.next = node.next.next;
+        for (int i = 1; i <= size; i++) {
+            if (i == kth) {
+                return node;
             }
             node = node.next;
-
         }
+        return node;
     }
+
+//    public void findDuplicatesInLinkedList() {
+//        Node<T> node = head;
+//        while(node != null && node.next != null) {
+//            if (node.getData() == node.next.getData()) {
+//                node.next = node.next.next;
+//            }
+//            node = node.next;
+//
+//        }
+//    }
 
     public void removeDuplicatesLL() {
         HashSet<T> set = new HashSet<>();
@@ -44,32 +88,10 @@ public class LL<T extends Comparable<T>>{
             current = current.getNext();
             i++;
         }
-//
-//        for (int i = 0; i < size; i++) {
-//            Node<T> temp = getPrevNode(i);
-//            if (set.contains(current.getData())) {
-//                temp.setNext(current.getNext());
-//                size--;
-//            }else {
-//                set.add(current.getData());
-//            }
-//            current = current.getNext();
-//        }
     }
 
 
-    public void insertLast(T value){
-        Node<T> node = new Node<>(value);
-        node.setNext(null);
-        if(head ==  null){
-            head = node;
-            tail = head;
-            return;
-        }
-        tail.setNext(node);
-        tail = node;
-        size++;
-    }
+
 
     public int insertNodeAtIndex(T value, int index) {
         // guard before anything
