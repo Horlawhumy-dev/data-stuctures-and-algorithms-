@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="abb09e4a-0d8b-40b7-bec7-39b8eb4001b2" name="Changes" comment="Added solutions to sort colors using merge sort algo">
-      <change afterPath="$PROJECT_DIR$/src/Recursion/QuickSort.java" afterDir="false" />
+    <list default="true" id="abb09e4a-0d8b-40b7-bec7-39b8eb4001b2" name="Changes" comment="Added solutions to quicksort">
+      <change afterPath="$PROJECT_DIR$/src/Recursion/CountElements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recursion/SumOfArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Stack/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Stack/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Stack/StackOfSites.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Recursion/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Recursion/Main.java" afterDir="false" />
     </list>
@@ -107,9 +111,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Stack.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Stack.Main" />
+      <module name="DSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Stack.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Recursion.Main" />
+        <item itemvalue="Application.Stack.Main" />
         <item itemvalue="Application.LinkedIist.Main" />
         <item itemvalue="Application.Sorting.Main" />
         <item itemvalue="Application.Main" />
@@ -363,7 +381,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651544033825</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Added solutions to quicksort">
+      <created>1651705448710</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1651705448710</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -405,7 +430,8 @@
     <MESSAGE value="Added solutions to recursion pattern to draw triangle" />
     <MESSAGE value="Added solutions to sort colors using recursion" />
     <MESSAGE value="Added solutions to sort colors using merge sort algo" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added solutions to sort colors using merge sort algo" />
+    <MESSAGE value="Added solutions to quicksort" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added solutions to quicksort" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
