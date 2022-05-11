@@ -2,28 +2,19 @@ package Stack;
 
 public class StackOfSites<T extends Comparable<T>> {
     public Node<T> top;
-    public Node<T> bottom;
     public int length;
 
     public StackOfSites() {
         this.top = null;
-        this.bottom = null;
         this.length = 0;
     }
 
 
     public void push(T value) {
         Node<T> node = new Node<>(value);
-        if(this.length == 0) {
-           top = node;
-           bottom = node;
-           this.length++;
-           return;
-           //bottom.setNext(top);
-        }
-        Node<T> temp = top;
+        Node<T> prevNode = top;
         top = node;
-        temp.next = top;
+        node.next = prevNode;
         this.length++;
     }
 
@@ -32,16 +23,29 @@ public class StackOfSites<T extends Comparable<T>> {
     }
 
     public T pop() {
-        Node<T> temp = top;
-        return this.top.getData();
+        Node<T> temp = this.top;
+        top = temp.next;
+        this.length--;
+        return temp.getData();
     }
 
+    public boolean isEmpty() {
+        return this.length == 0;
+    }
+
+    public void deleteStack() {
+        this.top.setNext(null);
+        this.length = 0;
+    }
+
+
     public void printStack() {
-        Node<T> node = bottom;
-        while (node.getNext() != null) {
+        Node<T> node = top;
+        while (node.next != null) {
             System.out.print(node.getData() + " -> ");
-            node = node.getNext();
+            node = node.next;
         }
-        System.out.print("END");
+        System.out.print(node.getData() + " -> ");
+        System.out.println("END");
     }
 }

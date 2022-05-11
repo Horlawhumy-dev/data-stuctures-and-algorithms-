@@ -6,7 +6,7 @@ public class Node<T>{
 
     public Node(T value) {
         setData(value);
-        setNext(null);
+        //setNext(null);
     }
 
     public void setData(T value) {

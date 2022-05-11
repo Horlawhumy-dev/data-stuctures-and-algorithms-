@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="abb09e4a-0d8b-40b7-bec7-39b8eb4001b2" name="Changes" comment="Added solutions to quicksort">
-      <change afterPath="$PROJECT_DIR$/src/Recursion/CountElements.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Recursion/SumOfArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Stack/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Stack/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Stack/StackOfSites.java" afterDir="false" />
+    <list default="true" id="abb09e4a-0d8b-40b7-bec7-39b8eb4001b2" name="Changes" comment="Added solutions to count and sum of elements in array using recursion">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Recursion/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Recursion/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Stack/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Stack/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Stack/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Stack/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Stack/StackOfSites.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Stack/StackOfSites.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +61,7 @@
       <recent name="Random" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Recursion.Main">
+  <component name="RunManager" selected="Application.Stack.Main">
     <configuration name="LinkedIist.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LinkedIist.Main" />
       <module name="DSA" />
@@ -126,8 +123,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Recursion.Main" />
         <item itemvalue="Application.Stack.Main" />
+        <item itemvalue="Application.Recursion.Main" />
         <item itemvalue="Application.LinkedIist.Main" />
         <item itemvalue="Application.Sorting.Main" />
         <item itemvalue="Application.Main" />
@@ -388,7 +385,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651705448710</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="Added solutions to count and sum of elements in array using recursion">
+      <created>1652255653810</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1652255653810</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -406,7 +410,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Initialized repository" />
     <MESSAGE value="Added random solutions" />
     <MESSAGE value="Fixed Main" />
     <MESSAGE value="Added some solution and fixed files" />
@@ -431,7 +434,8 @@
     <MESSAGE value="Added solutions to sort colors using recursion" />
     <MESSAGE value="Added solutions to sort colors using merge sort algo" />
     <MESSAGE value="Added solutions to quicksort" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added solutions to quicksort" />
+    <MESSAGE value="Added solutions to count and sum of elements in array using recursion" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added solutions to count and sum of elements in array using recursion" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -7,7 +7,7 @@ public class Main {
         sites.push("google");
         sites.push("Udemy");
         sites.push("Discord");
-        System.out.println(sites.peek());
+        sites.push("HaroffCode");
         sites.printStack();
     }
 }
